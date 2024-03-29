@@ -1,0 +1,34 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"escolha seu lanche: \n";
+    cout<<" 1- hot dog:\n ";
+    cout<<"2- lasanha:\n ";
+    cout<<"3- xbacon:\n ";
+    cout<<"4 - pizza:\n ";
+    
+    int escolha;
+    cin>>escolha;
+    
+    switch ( escolha ){
+        case 1:
+            cout<< "dogao";
+            break;
+        case 2:
+            cout<< "lasanha";
+            break;
+        case 3:
+            cout<< "xbacon";
+            break;
+        case 4:
+            cout<< "pizza";
+            break;
+        default :
+        cout<<"selecione uma opcao certa";
+    }
+    
+    return 0;
+}
