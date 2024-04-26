@@ -1,4 +1,6 @@
-  #include <iostream>
+*FOR SÓ É PARADA QUANDO O NÚMERO FOR NO MESMO VALOR DO N: SE N FOR NO VALOR DE 4 O CONTADOR VAI SER 4
+
+#include <iostream>
 
 using namespace std;
 
