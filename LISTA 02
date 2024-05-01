@@ -14,3 +14,35 @@ int main()
     
     return 0;
 }
+
+/******************************************************************************
+
+3 - Chico tem 1,50 metros e cresce 2 centímetros por ano, enquanto Zé tem 1,10 metro e 
+cresce 3 centímetros por ano. Construa um algoritmo que calcule e imprima quantos anos 
+serão necessários para que Zé seja maior que Chico.
+
+*******************************************************************************/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    float chico = 1.50;
+    float ze = 1.10;
+    int anos = 0;
+    float cresce_c = 0.02;
+    float cresce_z = 0.03;
+
+    while (ze < chico){
+        cout << "\nChico depois de " << (anos + 1) << " tem " << chico << "cm\n";
+        cout << "\nZe depois de " << (anos + 1) << " tem " << ze << "cm\n";
+        chico += cresce_c;
+        ze += cresce_z;
+        anos++;
+    }
+
+    cout << "\nSerão necessários " << anos << " anos para que Zé seja maior que Chico." << endl;
+    
+
+    return 0;
+}
